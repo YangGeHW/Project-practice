@@ -1,0 +1,158 @@
+.xtx_body{
+    padding: 30px 0 85px;
+    background-color: #f6f6f6;
+}
+.xtx_body .wrapper{
+    display: flex;
+}
+.xtx_body .aside{
+    width: 227px;
+    min-height: 500px;
+    background-color: pink;
+    margin-right: 18px;
+}
+.xtx_body .main{
+    flex: 1;
+    min-height: 500px;
+}
+.xtx_body .overview{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 132px;
+    margin-bottom: 18px;
+    padding:20px 0;
+    background-color: #fff;
+}
+.overview div{
+    flex: 1;
+}
+.overview div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid #f4f4f4;;
+    font-size: 16px;
+
+}
+.overview div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+.overview div span{
+    
+    font-size: 25px;
+    color:  #e05e30;
+}
+.overview div img{
+    margin-bottom: 10px;
+    width: 25px;
+}
+.overview div a:nth-child(3) img{
+    width: 18px;
+}
+
+.overview div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 公共样式 */
+.pannel{
+    padding: 28px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.pannel_title{
+    display: flex;
+    justify-content:space-between;
+    height: 45px;
+    font-size: 22px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pannel .pannel_title a{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #999999;
+
+}
+/* 订单 */
+.orders li{
+    margin-top: -1px;
+    height: 137px;
+    border: 1px solid #f4f4f4;
+    display: flex;
+    
+}
+.orders li:first-child{
+    margin-bottom: 20px;
+}
+.orders li .goods{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-right:120px ;
+}
+.orders li .goods img{
+    width: 107px;
+    margin-left:12px;
+	
+}
+.orders li .goods p{
+    font-size: 14px;
+    color: #999999;
+}
+.orders li .goods .txt{
+    flex: 1;
+    width: 0;
+}
+.orders li .goods .txt h5{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    font-size: 16px;
+    color: #333333;
+}
+.orders li .status{
+    width: 120px;
+    align-self: center;
+    font-size: 14px;
+    color: #e05e30;
+}
+.orders li .pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.orders li .pay p:first-child{
+    color: #9a2e1f;
+}
+.orders li .action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+.orders li  .action p:first-child{
+    display: block;
+    margin-bottom: 16px;
+    width: 100px;
+	height: 30px;
+	background-color: #5eb69c;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+	border-radius: 2px;
+}
+.aside li:hover{
+    list-style:disc;
+    color: #5eb69c;
+    
+}
